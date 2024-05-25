@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: url("https://cdn.hswstatic.com/gif/celsius-convert.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+  
+    
+#noValue , #noUnit{
+    color:red;
+}
+
+button {
+    border-radius: .2rem;
+    border: .1rem solid black;
+    
+}
+button:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+#value{
+    border-radius:.2rem ;
+    border: .1rem solid #222;
+    color: black;
+    
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+#celsius, #fahrenheit:hover{
+    cursor: pointer;
+}
+
+    
+
+
